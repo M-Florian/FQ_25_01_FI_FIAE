@@ -31,7 +31,7 @@ try:
 except Exception as e:
     print("Wird ausgeführt, wenn Fehler auftritt!")
     print("Fehler", e)
-else:
+ else:
     print("Wird nach 'try' ausgeführt, wenn kein Fehler aufgetreten ist!")
 finally:
     print("Wird immer zusätzlich am Ende ausgeführt - egal ob Fehler oder nicht!")
